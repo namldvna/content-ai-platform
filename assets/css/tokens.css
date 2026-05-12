@@ -1,0 +1,71 @@
+/* ============================================================
+   ViTechGroup Design Tokens — content-ai-platform v1.2
+   Brand book: D:/OneDrive/VITECH/LOGO/LOGO VITECH/
+   /* ViTech Orange #F5A623 · ViTech Navy #1E3A5F */
+   Canonical:  ../../../_brand/tokens.css (overrides workspace)
+   ============================================================ */
+
+/* Import canonical brand tokens (--vt-*) — source of truth
+   Path: content-ai-platform/assets/css/tokens.css → up 2 → PC_DEV/_brand/tokens.css */
+@import url("../../_brand/tokens.css");
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  /* ===== B3: Alias về canonical vt-tokens (fallback HEX tránh cascade issue nếu canonical không load) ===== */
+  --primary:        var(--vt-navy, #1E3A5F);
+  --accent:         var(--vt-orange, #F5A623);
+
+  /* ===== Brand — ViTech Blue ===== */
+  /* --primary được alias ở trên; giữ dưới để các token con inherit */
+  --primary-dark:   #0F2354;   /* Premium dark — sidebar, modal scrim */
+  --primary-mid:    #1F8ED0;   /* ViTech Blue sáng — secondary highlight, links */
+  --primary-light:  #E9EFF8;   /* Tint xanh — bg section, badge bg */
+  --primary-soft:   #F4F7FC;   /* Tint xanh nhạt — table row hover */
+
+  /* ===== Brand — ViTech Orange ===== */
+  /* --accent aliased to var(--vt-orange) above */
+  --accent-dark:    #EF5B2A;   /* ViTech Deep Orange — pressed/hover */
+  --accent-light:   #FEF1E2;   /* Tint cam — bg highlight */
+  --accent-soft:    #FFF8F0;   /* Tint cam nhạt */
+
+  /* ===== Brand — ViTech Gold ===== */
+  --gold:           #F6A91A;   /* Accent phụ — KPI nổi bật */
+  --gold-light:     #FEF6E1;
+
+  /* ===== Semantic ===== */
+  --success:        #16A34A;
+  --success-light:  #DCFCE7;
+  --warning:        #F59E0B;
+  --warning-light:  #FEF3C7;
+  --danger:         #DC2626;
+  --danger-light:   #FEE2E2;
+  --info:           var(--primary-mid);
+
+  /* ===== Neutral ===== */
+  --ink:            #111827;
+  --text:           #1A2332;
+  --text-muted:     #6B7280;
+  --border:         #E2E8F0;
+  --border-strong:  #CBD5E0;
+  --bg:             #F4F6FA;
+  --bg-soft:        #F8FAFC;
+  --white:          #FFFFFF;
+
+  /* ===== Layout ===== */
+  --sidebar-w:      240px;
+  --header-h:       63px;
+  --radius:         8px;
+  --radius-lg:      12px;
+  --radius-xl:      14px;
+
+  /* ===== Elevation ===== */
+  --shadow-sm:      0 1px 2px rgba(15, 35, 84, 0.05);
+  --shadow:         0 4px 12px rgba(15, 35, 84, 0.08);
+  --shadow-lg:      0 12px 32px rgba(15, 35, 84, 0.12);
+
+  /* ===== Motion ===== */
+  --t-fast:         0.12s ease;
+  --t:              0.18s ease;
+  --t-slow:         0.3s ease;
+}

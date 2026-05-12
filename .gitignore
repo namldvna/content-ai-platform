@@ -1,0 +1,38 @@
+# Build / dist
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Backup
+*.bak
+*~
