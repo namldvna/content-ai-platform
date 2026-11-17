@@ -1,0 +1,12 @@
+# QA Checklist – Video release
+- [ ] Source & rights đã xác minh
+- [ ] Script nguyên bản, có đóng góp mới
+- [ ] Không bê nguyên footage, nhạc, thoại, nhân vật thiếu phép
+- [ ] Nhân vật/đạo cụ/ánh sáng/camera liên tục giữa cảnh
+- [ ] Lời thoại Việt tự nhiên, khớp khẩu hình khi cần
+- [ ] Phụ đề, âm thanh, FPS, resolution, duration đạt tiêu chuẩn
+- [ ] Tiêu đề/thumbnail không đánh lừa
+- [ ] AI altered/synthetic disclosure khi cần
+- [ ] Kiểm tra reused/inauthentic policy theo toàn kênh
+- [ ] Có Human Gate trước đăng, có approval receipt
+- [ ] Đã lưu asset manifest, bản quyền, phiên bản và project
