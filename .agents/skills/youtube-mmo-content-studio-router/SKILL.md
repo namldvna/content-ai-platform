@@ -9,7 +9,7 @@ status: REPO_INSTALLED_UAT_PENDING
 Khi được giao nhiệm vụ nghiên cứu kênh, phân tích video hoặc tạo video: dùng một hoặc nhiều skill trong .agents/skills/ theo thứ tự dưới đây.
 
 1. viral-video-hunter: thu thập metadata và phân tích các tín hiệu công khai có căn cứ.
-2. video-reverse-engineer: phân tích cấu trúc, phân cảnh, nhịp dựng, thông điệp; chỉ xử lý media khi có quyền.
+2. rea-video (nếu đã cài CLI) + video-reverse-engineer: phân tích cấu trúc, phân cảnh, nhịp dựng, thông điệp; chỉ xử lý media khi có quyền. Nếu CLI chưa có, dùng skill phân tích thủ công và báo blocker.
 3. viral-script-rebuilder: sáng tạo kịch bản độc lập; không chép nguyên lời thoại, hình ảnh, tình tiết đặc thù.
 4. reaction-video-creator: phản biện, nhận xét, phân tích có đóng góp thực chất.
 5. ai-video-production-director + remotion-react-video: tổ chức storyboard, prompt, hậu kỳ/dựng bằng React.
