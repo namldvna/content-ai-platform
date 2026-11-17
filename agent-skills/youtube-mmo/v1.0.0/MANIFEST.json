@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-11-17",
+  "status": "CANDIDATE_PACKAGED_NOT_INSTALLED",
+  "files": [
+    {
+      "path": "01-viral-video-hunter/SKILL.md",
+      "sha256": "296d22d015380ac70b35eb3c2f77de65ec6e11524c270ee69782bf7f416f8361",
+      "bytes": 3219
+    },
+    {
+      "path": "02-video-reverse-engineer/SKILL.md",
+      "sha256": "53fc8908912500dec42c33b10dcf4fcd4f899d1a27c900979093d52efb08d1c1",
+      "bytes": 3415
+    },
+    {
+      "path": "03-viral-script-rebuilder/SKILL.md",
+      "sha256": "2095b4b626b1fabb156bca63d3bcab83d60276595a08230bb8ac8aae154f3136",
+      "bytes": 3540
+    },
+    {
+      "path": "04-reaction-video-creator/SKILL.md",
+      "sha256": "666cd71ced0010eaf05975ab7b77d73c0cd51d553dc1d39de6496d7669ebb330",
+      "bytes": 3363
+    },
+    {
+      "path": "05-ai-video-production-director/SKILL.md",
+      "sha256": "c4cafe1a251a937938df3840781390c4e58cc626af3bd7ee7bcc4abe058ef38b",
+      "bytes": 3548
+    },
+    {
+      "path": "06-youtube-monetization-auditor/SKILL.md",
+      "sha256": "bdacf1c730da8671ec6b3996fcb6fae11eae8bebc7f683bc5374e20f568b3ddc",
+      "bytes": 3970
+    },
+    {
+      "path": "07-youtube-seo-growth/SKILL.md",
+      "sha256": "0a2e091630ea16e88416cb9ab90b9733306af3cccb0c5f519b419b5db35b00fa",
+      "bytes": 3329
+    },
+    {
+      "path": "08-mmo-channel-operations/SKILL.md",
+      "sha256": "e5c135a977cf7dfde94929caabfd1a78ff6f398b969745f6f61f50f7c3982ae7",
+      "bytes": 3809
+    },
+    {
+      "path": "README.md",
+      "sha256": "89199b9aafe9a9eda369212919e646ccc0e1afe002bfd7d08ff52eaa77327dfc",
+      "bytes": 3166
+    },
+    {
+      "path": "ROUTER_SKILL.md",
+      "sha256": "6ef8792ab1f3e9c2a41426b39a8f0692bac818e68412036a956e6d1f401d1887",
+      "bytes": 2223
+    },
+    {
+      "path": "templates/ASSET_RIGHTS_LEDGER.csv",
+      "sha256": "4d00cd8f055222ba8d89f5bd8b8b0537bec01d42ab79a0caad171742cb9e2d42",
+      "bytes": 113
+    },
+    {
+      "path": "templates/BEAT_MAP.csv",
+      "sha256": "31f58c5b87c2ce21aca3fcef9e4956aff972a1b1235314012d0ceb2e49d2a485",
+      "bytes": 243
+    },
+    {
+      "path": "templates/CHANNEL_REGISTRY.csv",
+      "sha256": "5a7aecc4aca389ac81bf72e6f1b37db1f6995b712b131afc7d1b4f894d0f22b6",
+      "bytes": 154
+    },
+    {
+      "path": "templates/QA_CHECKLIST.md",
+      "sha256": "0caa151b87463a35c9215982ccc8ae2ab706e828a1000a28163317c6adca2a54",
+      "bytes": 705
+    }
+  ]
+}
